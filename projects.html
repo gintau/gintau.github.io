@@ -17,13 +17,13 @@
     <script src="lib/require.js"></script>
     <script src="app/config.js"></script>
     <script type="text/javascript">
-        require(['jquery', 'Header', 'ProjectManager'], function ($, Header, ProjectManager) {
+        require(['jquery', 'Header', 'ProjectManager', 'Translator'], function ($, Header, ProjectManager, Translator) {
             $(function () {
                 Header.loadHeader($('#header')).done(function() {
                     $('#project-nav-btns').show();
                 });
-
                 ProjectManager.renderProjects();
+                Translator.setLocale();
             });
         });
     </script>
@@ -60,8 +60,7 @@
                                 {{#images}}
                                 <div class="project-carousel-item item{{#isFirst}} active{{/isFirst}}">
                                     <img src="images/{{name}}/{{src}}" alt="{{src}}" class="project-carousel-item" />
-                                    <div class="carousel-caption">
-                                        {{caption}}
+                                    <div class="carousel-caption" data-translate="{{caption}}">
                                     </div>
                                 </div>
                                 {{/images}}
@@ -77,8 +76,7 @@
                         </div>
                     </div>
                     <div class="project-desc grid-40 tablet-grid-100 mobile-grid-100">
-                        <div class="project-desc-content">
-                            {{temp}}
+                        <div class="project-desc-content" data-translate="{{description_key}}">
                         </div>
                         <div class="project-desc-tags">
                             {{#technologies}}

@@ -1,23 +1,23 @@
 ﻿{
-	NAV_ABOUT: 'About',
-	NAV_PROJECTS: 'Project',
-	NAV_RESUME: 'Resume',
+	"NAV_ABOUT": "About",
+	"NAV_PROJECTS": "Project",
+	"NAV_RESUME": "Resume",
 
-	COLFUSION_DESC: 'Col*Fusion (Collaborative Data Fusion) is an advanced infrastructure for systematic accumulation, integration and utilization of historical data. It aims to support large-scale interdisciplinary research, where a comprehensive picture of the subject requires large amounts of historical data from disparate data sources from a variety of disciplines.',
-	COLFUSION_IMG_PREIVEW: 'Datasets are merged based on pre-defined associations',
-	COLFUSION_IMG_REL: 'Create, edit, and comment user-defined associations between datasets',
-	COLFUSION_IMG_PATH: 'Inspect association path using graphical tool',
-	COLFUSION_IMG_VISUAL: 'Aggregate and visualize merged datasets',
+	"COLFUSION_DESC": "ColFusion (Collaborative Data Fusion) is an advanced infrastructure for systematic accumulation, integration and utilization of historical data. It aims to support large-scale interdisciplinary research, where a comprehensive picture of the subject requires large amounts of historical data from disparate data sources from a variety of disciplines.",
+	"COLFUSION_IMG_PREIVEW": "Datasets are merged based on pre-defined associations",
+	"COLFUSION_IMG_REL": "Create, edit, and comment user-defined associations between datasets",
+	"COLFUSION_IMG_PATH": "Inspect association path using graphical tool",
+	"COLFUSION_IMG_VISUAL": "Aggregate and visualize merged datasets",
 
-	SALT_DESC: 'Self Adaping Learning Through Teaching (SALT) is a social network for knowledge sharing. SALT emphasizes peer-to-peer learning, users learn from lessons (we call them lesslets) provided by others, and contribute their knowledge to SALT community.',
-	SALT_IMG_ACT: 'To know what lessons your frineds are learning',
-	SALT_IMG_CREATE: 'Create and edit a lesslet',
-	SALT_IMG_TOPIC: 'Lesslets are grouped by topics',
-	SALT_IMG_LESSLET: 'Learn, practice, and give feedback',
-	SALT_IMG_EXAMPLE: 'Use examples to clarify your concept',
+	"SALT_DESC": "Self Adaping Learning Through Teaching (SALT) is a social network for knowledge sharing. SALT emphasizes peer-to-peer learning, users learn from lessons (we call them lesslets) provided by others, and contribute their knowledge to SALT community.",
+	"SALT_IMG_ACT": "To know what lessons your frineds are learning",
+	"SALT_IMG_CREATE": "Create and edit a lesslet",
+	"SALT_IMG_TOPIC": "Lesslets are grouped by topics",
+	"SALT_IMG_LESSLET": "Learn, practice, and give feedback",
+	"SALT_IMG_EXAMPLE": "Use examples to clarify your concept",
 
-	COURENA_DESC: 'Courena is a teaching assitant for school courses. For students, Courena helps master school courses by providing a real-time team-based competition game. For instructors, Courena introduces an interactive assessment platform and useful statistical tools, helping instructors quickly get a picture of learning outcome.',
-	COURENA_IMG_MENU: 'View courses you are participating',
-	COURENA_IMG_ARENA: 'Join, or spectate a game',
-	COURENA_IMG_GAME: 'Compete with players using your knowledge'
+	"COURENA_DESC": "Courena is a teaching assitant for school courses. For students, Courena helps master school courses by providing a real-time team-based competition game. For instructors, Courena introduces an interactive assessment platform and useful statistical tools, helping instructors quickly get a picture of learning outcome.",
+	"COURENA_IMG_MENU": "View courses you are participating",
+	"COURENA_IMG_ARENA": "Join, or spectate a game",
+	"COURENA_IMG_GAME": "Compete with players using your knowledge"
 }

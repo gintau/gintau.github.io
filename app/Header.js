@@ -1,22 +1,25 @@
 ﻿define(['jquery', 'Translator'], function ($, Translator) {
-    
-    function loadHeader(container) {      
+
+    function loadHeader(container) {
         // Load header
         return $.ajax({
             url: 'header.html',
             success: function (header) {
                 $(container).html(header);
 
-                // Translate.
-                Translator.translate('zh-tw');
-
-
-                // Bind locale change event.
+                // Bind locale seletor event.
+                $('#locale-translate')
+                    .val(Translator.getLocale())
+                    .on('change', function () {
+                        console.log('change locale');
+                        var chosenLocale = $(this).val();
+                        Translator.setLocale(chosenLocale);
+                    });
             }
         });
     }
 
-    return {       
+    return {
         loadHeader: loadHeader
     };
 });
