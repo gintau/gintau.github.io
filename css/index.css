@@ -1,0 +1,26 @@
+﻿#content {
+    text-align: center;
+}
+
+#about-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 225px;
+}
+
+#self-intro {
+    margin-top: 20px;
+}
+
+#circular-photo {
+    width: 225px;
+    height: 225px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../images/me.jpg) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}

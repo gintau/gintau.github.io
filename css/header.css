@@ -8,6 +8,12 @@
     padding: 0;
 }
 
+@media screen and (max-width: 767px) {
+    .header ul {
+        margin: 5px;
+    }
+}
+
 .header-item a {
     color: #555555;
 }
@@ -39,6 +45,7 @@
 
 .header-settings > ul {
     float: right;
+    margin-bottom: 10px;
 }
 
 .header-settings .social-link {
@@ -53,6 +60,20 @@
     }
 }
 
+/* This element is in header */
+.project-nav-wrapper {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    height: 10px;
+}
+
 #project-nav-btns {
     display: none;
+}
+
+@media screen and (max-width: 767px) {
+    /* Do not show this in mobile. */
+    .project-nav-wrapper {
+        display: none;
+    }
 }

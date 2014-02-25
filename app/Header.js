@@ -1,26 +1,22 @@
-﻿define(['jquery', 'Main', 'Translator'], function ($, Main, Translator) {
-
-    var headerContainer = $('#header');
-
-    function loadHeader() {
+﻿define(['jquery', 'Translator'], function ($, Translator) {
+    
+    function loadHeader(container) {      
         // Load header
-        return $.get('header.html').done(function(header) {
-            $(headerContainer).html(header);
+        return $.ajax({
+            url: 'header.html',
+            success: function (header) {
+                $(container).html(header);
 
-            // Translate.
-            Translator.translate('zh-tw');
+                // Translate.
+                Translator.translate('zh-tw');
 
-            
-            // Bind locale change event.
+
+                // Bind locale change event.
+            }
         });
     }
 
-    Main.appReady(loadHeader);
-
-    return {
-        setHeaderContiner: function (elem) {
-            headerContainer = elem;
-        },
+    return {       
         loadHeader: loadHeader
     };
 });

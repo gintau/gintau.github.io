@@ -17,13 +17,14 @@
     <script src="lib/require.js"></script>
     <script src="app/config.js"></script>
     <script type="text/javascript">
-        require(['Header', 'ProjectManager', 'Main'], function (Header, ProjectManager, Main) {
-            Main.appReady(function () {
-                Header.loadHeader().done(function() {
+        require(['jquery', 'Header', 'ProjectManager'], function ($, Header, ProjectManager) {
+            $(function () {
+                Header.loadHeader($('#header')).done(function() {
                     $('#project-nav-btns').show();
                 });
+
+                ProjectManager.renderProjects();
             });
-            Main.appReady(ProjectManager.renderProjects);
         });
     </script>
 </head>
@@ -68,10 +69,10 @@
 
                             <!-- Controls -->
                             <a class="left carousel-control" href="#project-img-carousel{{@index}}" data-slide="prev">
-                                &lsaquo;
+                                <i class="fa fa-chevron-left project-img-nav-icon"></i>
                             </a>
                             <a class="right carousel-control" href="#project-img-carousel{{@index}}" data-slide="next">
-                                &rsaquo;
+                                <i class="fa fa-chevron-right project-img-nav-icon"></i>
                             </a>
                         </div>
                     </div>

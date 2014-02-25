@@ -53,6 +53,11 @@
     color: white;
 }
 
+.project-img-nav-icon {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
 .project-carousel-item img, .project-carousel-item .video {
     width: 100%;
     height: 320px;
@@ -77,17 +82,4 @@
 
 .project-desc {
     line-height: 1.5;
-}
-
-/* This element is in header */
-.project-nav-wrapper {
-    text-align: center;
-    padding: 20px 0 20px 0;
-}
-
-@media screen and (max-width: 767px) {
-    /* Do not show this in mobile. */
-    .project-nav-wrapper {
-        display: none;
-    }
 }

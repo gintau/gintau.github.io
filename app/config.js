@@ -1,7 +1,6 @@
 ﻿require.config({
     baseUrl: '/',
-    paths: {
-        Main: 'app/Main',
+    paths: {      
         ProjectManager: 'app/ProjectManager',
         Header: 'app/Header',
         Translator: 'app/Translator',
