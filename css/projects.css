@@ -1,0 +1,93 @@
+﻿#content {
+    /* Override global style for adjustment of anchor's position.*/
+    margin-top: -21px;
+    padding-bottom: 60px;
+}
+
+.project-wrapper {
+    padding-top: 120px;
+}
+
+@media screen and (max-width: 767px) {
+    .project-wrapper {
+        padding-top: 20px;
+    }
+}
+
+.project-wrapper:first-child {
+    padding-top: 140px;
+}
+
+@media screen and (max-width: 767px) {
+    .project-wrapper:first-child {
+        padding-top: 160px;
+    }
+}
+
+
+.project {
+    padding: 20px 30px 50px 30px;
+    border: solid 1px;
+}
+
+@media screen and (max-width: 1023px) {
+    .project {
+        padding: 20px 0 50px 0;
+    }
+}
+
+.project-header {
+    padding-bottom: 20px;
+}
+
+.project .project-header > h1 {
+    font-weight: 100;
+}
+
+.carousel {
+    width: 100%;
+    height: 300px;
+}
+
+.carousel-caption {
+    color: white;
+}
+
+.project-carousel-item img, .project-carousel-item .video {
+    width: 100%;
+    height: 320px;
+    max-height: 320px;
+}
+
+@media screen and (max-width: 1023px) {
+    .project-desc-content {
+        padding-top: 20px;
+    }
+}
+
+.project .project-desc-tags {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+    .carousel {
+        width: 100%;
+    }
+}
+
+.project-desc {
+    line-height: 1.5;
+}
+
+/* This element is in header */
+.project-nav-wrapper {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+    /* Do not show this in mobile. */
+    .project-nav-wrapper {
+        display: none;
+    }
+}
