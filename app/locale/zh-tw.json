@@ -1,3 +1,23 @@
 ﻿{
-	"a":"b"
+	"NAV_ABOUT": "關於我",
+	"NAV_PROJECTS": "作品集",
+	"NAV_RESUME": "履歷",
+
+	"COLFUSION_DESC": "ColFusion (Collaborative Data Fusion) 是一個協作式資料整合平台, 使用者可以利用自己在特定領域的專業知識, 幫助其他使用者建立並發掘資料的關聯性. Colfusion採用了Crowdsouring的概念, 每筆關連的可信度皆藉由使用者的評價與意見去決定, 系統也會藉由信度去決定是否將資料關連起來.",
+	"COLFUSION_IMG_PREIVEW": "系統會依據定義好的關連整合資料",
+	"COLFUSION_IMG_REL": "建立, 編輯, 並提供意見給關連",
+	"COLFUSION_IMG_PATH": "使用圖像工具檢視資料之間的關連",
+	"COLFUSION_IMG_VISUAL": "統計並圖像化整合好的資料",
+
+	"SALT_DESC": "Self Adaping Learning Through Teaching (SALT) 為一個知識分享的社群網路. 在這裡, 使用者建立課程, 提供評量, 或幫助他人完善課程, 並藉由這個過程交換意見, 分享學習知識.",
+	"SALT_IMG_ACT": "關注朋友的動態",
+	"SALT_IMG_CREATE": "建立課程",
+	"SALT_IMG_TOPIC": "瀏覽現有的課程",
+	"SALT_IMG_LESSLET": "閱讀課程, 提供回饋",
+	"SALT_IMG_EXAMPLE": "使用範例加強學習印象",
+
+	"COURENA_DESC": "Courena 是一個線上遊戲學習平台, 學生在這裡利用課程教材, 進行即時小組競賽. Courena 會根據個別學生的學習紀錄, 調整遊戲的平衡性, 以提供更好的競賽環境. 另外老師也可以使用即時評量工具, 追蹤學生的學習狀況.",
+	"COURENA_IMG_MENU": "選擇加入的課程",
+	"COURENA_IMG_ARENA": "加入遊戲或觀戰",
+	"COURENA_IMG_GAME": "與其他學生進行小組競賽"
 }
