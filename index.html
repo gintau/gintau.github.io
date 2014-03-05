@@ -14,11 +14,12 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/index.css" />
 
+    <script src="lib/google-analytic.js"></script>
     <script src="lib/require.js"></script>
     <script src="app/config.js"></script>
     <script type="text/javascript">
         require(['jquery', 'Header'], function ($, Header) {
-            $(function() {
+            $(function () {
                 Header.loadHeader($('#header'));
             });
         });
@@ -29,7 +30,24 @@
     <div id="content" class="grid-container">
         <div id="about-container">
             <div id="circular-photo"></div>
-            <div id="self-intro">Introduction is building...</div>
+            <div id="self-intro">
+                <p>
+                    My name is Ting-Kuan Wu. Recently graduated from University of Pittsburgh, majoring in Information Science with Master degree.
+                    And I'm looking for full-time web developer position.
+                </p>
+                <p>
+                    Being facinated by fast-growing web, I love cool websites with beautiful pixels.
+                    My dream job is to bring together technology and humanity, creating an ubiquitous experience.
+                    Now I spend most of my day hanging around Github, trying to do something for our web.
+                </p>
+                <p>
+                    Please checkout
+                    <a href="http://www.linkedin.com/pub/ting-kuan-wu/60/345/475" target="_blank">my profile</a>
+                    and
+                    <a href="projects.html" target="_blank">my work samples</a>
+                    for more about me.
+                </p>
+            </div>
         </div>
     </div>
 </body>

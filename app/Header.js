@@ -11,7 +11,6 @@
                 $('#locale-translate')
                     .val(Translator.getLocale())
                     .on('change', function () {
-                        console.log('change locale');
                         var chosenLocale = $(this).val();
                         Translator.setLocale(chosenLocale);
                     });
